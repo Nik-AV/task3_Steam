@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+    <test name="SteamTest">
+        <classes>
+            <class name="tests.StreamTest"/>
+            <parameter name="language" value="English"></parameter>
+        </classes>
+    </test>
+</suite>
